@@ -2,12 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="JS.js"></script>
-    <title>Ma page de test</title>
+    <title>Carte noel</title>
+
   </head>
   <body>
-
-    <h1 class="titre_principal">happy christmas</h1>
+    <div class='relative'>
+      <img class='absolute z--1' src="fond.png">
+      <img class='absolute z-2 to-refactor' src="porte.png">
+    </div>
+    <h1 class="absolute-center">Merry Christmas</h1>
+    <div class="music"><audio controls><source src=noel.mp3></audio></div>
   </body>
 </html>

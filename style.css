@@ -1,7 +1,50 @@
 body{
-    background-color: blue;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 250%;
+    margin: 0;
 }
 
-.titre_principal {
-    text-align: center;
+#fond.png{
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#porte.png{
+    position: absolute;
+    z-index: 1;
+    display: cover;
+}
+
+.music{
+    font-size: 150%;
+}
+h1{
+    color: #FFF;
+    z-index: 2;
+}
+.absolute-center {
+    top: 0;
+    left: 50%;
+    position: absolute;
+}
+
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.relative {
+    position: relative;
+}
+.z--1{
+    z-index: -2;
+}
+.z-2{
+    z-index: -1;
+}
+.to-refactor{
+    /* TODO */
+    top: -120px;
 }
